@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CartWidget from "./CartWidget";
+import magnifierWidget from "./magnifier";
 
 const Navbar = () => {
     const [showIndumentaria, setShowIndumentaria] = useState(false);
@@ -79,6 +80,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
+                    <magnifierWidget/>
                     <form action="">
                         <input className="mr-20 px-5 rounded-lg" type="text" />
                     </form>

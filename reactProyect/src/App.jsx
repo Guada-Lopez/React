@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Narvar'
+import ItemListContainer from './components/ItemListContainer'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <ItemListContainer/> */}
+      <ItemListContainer greeting = "Bienvenidos a D-SPORT!!!"/>
     </>
   )
 }
