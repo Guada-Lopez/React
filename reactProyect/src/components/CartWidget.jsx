@@ -7,6 +7,7 @@ const CartWidget = () => {
             <span>(10)</span>
         </div>
     );
-}
+}; 
 
-export default CartWidget ;
+export default CartWidget;
+
